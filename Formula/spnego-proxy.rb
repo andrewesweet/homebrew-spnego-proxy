@@ -11,7 +11,6 @@ class SpnegoProxy < Formula
     ldflags = %W[
       -s -w
       -X main.version=#{version}
-      -X main.commit=HEAD
     ]
     system "go", "build", *std_go_args(ldflags:)
   end
