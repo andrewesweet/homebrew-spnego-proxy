@@ -1,8 +1,8 @@
 class SpnegoProxy < Formula
   desc "SPNEGO/Kerberos authenticating HTTP proxy"
   homepage "https://github.com/andrewesweet/spnego-proxy"
-  url "https://github.com/andrewesweet/spnego-proxy/archive/refs/tags/v1.0.0.tar.gz"
-  sha256 "de8b43d26d3c8b4cb3c1ca9df3b0123d484f3288448807fba1b6f2840a046b9a"
+  url "https://github.com/andrewesweet/spnego-proxy/archive/refs/tags/v1.2.4.tar.gz"
+  sha256 "b7900e337eab5a1d9d8ce767c2f837839680330969ef5617f1cd884e2cfa381a"
   license "MIT"
 
   depends_on "go" => :build
